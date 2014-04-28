@@ -4,7 +4,9 @@ Email questions about the code to pfc &lt;AT&gt; stat.osu.edu
 
 R code for the simulation of certain stationary Gaussian time series
 (e.g., fractionally differenced (FD) and fractional Gaussian noise
-(fGn) processes) using the Davies-Harte algorithm
+(fGn) processes) using the Davies-Harte algorithm.  The process of interest
+must satisfies a certain positivity condition (see Craigmile, 2003).
+
 
 ### References
 
@@ -14,7 +16,7 @@ R code for the simulation of certain stationary Gaussian time series
 
 3. T. Gneiting, T. (2000) "Power-law correlations, related models for long-range dependence, and their simulation". Journal of Applied Probability, <b>37</b>, 1104-1109.
 
-4. P. F. Craigmile (2003). <a href="http://www.blackwell-synergy.com/doi/abs/10.1111/1467-9892.00318">Simulating a class of stationary Gaussian processes using the Davies-Harte algorithm, with application to long memory processes</a>. Journal of Time Series Analysis, <b>24</b>, 505-511.
+4. P. F. Craigmile (2003). <a href="http://dx.doi.org/10.1111/1467-9892.00318">Simulating a class of stationary Gaussian processes using the Davies-Harte algorithm, with application to long memory processes</a>. Journal of Time Series Analysis, <b>24</b>, 505-511.
 
 
 
