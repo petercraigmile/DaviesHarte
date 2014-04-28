@@ -7,6 +7,8 @@ R code for the simulation of certain stationary Gaussian time series
 (fGn) processes) using the Davies-Harte algorithm.  The process of interest
 must satisfies a certain positivity condition (see Craigmile, 2003).
 
+Look at the file examples.R to see how to use these functions to simulate long memory processes.
+
 
 ### References
 

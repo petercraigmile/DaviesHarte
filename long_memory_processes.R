@@ -50,7 +50,6 @@ fd.acvs <- function (max.lag, d, sigma2=1)
 
 
 
-
 ## ======================================================================
 ## Purpose : Calculate the autocovariance sequence for the non-negative
 ##           lags of a fGn('H','sigma2') process, up to a maximum lag of
@@ -65,6 +64,7 @@ fGn.acvs <- function (max.lag, H, sigma2=1) {
   
   0.5 * sigma2 * (abs(lags+1)^two.H - 2*abs(lags)^two.H + abs(lags-1)^two.H)
 }
+
 
 
 
