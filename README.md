@@ -1,4 +1,4 @@
-# Simulation of stationary Gaussian time series using the Davies-Harte algorithm
+# Simulation of stationary Gaussian time series using the Davies-Harte algorithm in R
 
 Email questions about the code to pfc &lt;AT&gt; stat.osu.edu
 
