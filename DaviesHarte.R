@@ -1,5 +1,5 @@
 ## ======================================================================
-## Copyright 2002--2010, Peter F. Craigmile, All Rights Reserved
+## Copyright 2002--2014, Peter F. Craigmile, All Rights Reserved
 ## Address comments about this software to pfc@stat.osu.edu.
 ##
 ## GNU GENERAL PUBLIC LICENSE, Version 3
@@ -12,7 +12,7 @@
 ##            (that satisfy a certain positivity condition) using the
 ##            Davies-Harte algorithm.
 ## Version  : 0.3
-## Updated  : pfc@stat.osu.edu, March 2007.
+## Updated  : pfc@stat.osu.edu, April 2014.
 ##
 ## References:
 ##
