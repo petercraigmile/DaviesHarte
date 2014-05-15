@@ -7,7 +7,7 @@
 ## ======================================================================
 
 ## ======================================================================
-## File     : long_memory_processes.R
+## File     : FD_fGn_acvs.R
 ## Contains : R code to calculate the autocovariance sequence (ACVS)
 ##            for a fractionally differenced (FD) and fractional
 ##            Gaussian noise (fGn).

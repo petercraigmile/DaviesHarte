@@ -20,7 +20,7 @@
 
 source("DaviesHarte.R")
 
-source("long_memory_processes.R")
+source("FD_fGn_acvs.R")
 
 
 ## Simulate a Gaussian fractionally differenced process with differencing
