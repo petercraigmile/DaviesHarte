@@ -31,17 +31,17 @@
 ## ======================================================================
 ## Purpose : Calculate the autocovariance sequence for the non-negative
 ##           lags of a FD('d','sigma2') process, up to a maximum lag of
-##           'max.lag'.
-## Assumes : max.lag >= 0
+##           'lag.max'.
+## Assumes : lag.max >= 0
 ## Created : pfc@stat.osu.edu, Feb 2003.
 ## ======================================================================
 
-fd.acvs <- function (max.lag, d, sigma2=1)
+fd.acvs <- function (lag.max, d, sigma2=1)
 {
   acvs0 <- sigma2 * exp(lgamma(1-2*d)-2*lgamma(1-d))
-  if (max.lag>0)
+  if (lag.max>0)
   {
-    ks <- 1:max.lag
+    ks <- 1:lag.max
     cumprod(c(acvs0, (ks-1+d)/(ks-d)))
   }
   else acvs0
@@ -53,13 +53,13 @@ fd.acvs <- function (max.lag, d, sigma2=1)
 ## ======================================================================
 ## Purpose : Calculate the autocovariance sequence for the non-negative
 ##           lags of a fGn('H','sigma2') process, up to a maximum lag of
-##           'max.lag'.
-## Assumes : max.lag >= 0
+##           'lag.max'.
+## Assumes : lag.max >= 0
 ## ======================================================================
 
-fGn.acvs <- function (max.lag, H, sigma2=1) {
+fGn.acvs <- function (lag.max, H, sigma2=1) {
 
-  lags <- 0:max.lag
+  lags <- 0:lag.max
   two.H <- 2 * H
   
   0.5 * sigma2 * (abs(lags+1)^two.H - 2*abs(lags)^two.H + abs(lags-1)^two.H)

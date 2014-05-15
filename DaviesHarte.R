@@ -39,8 +39,8 @@
 ## Purpose  : Sets up variables for quick simulation of stationary
 ##            Gaussian process using the Davie Harte algorithm.
 ##            'N' denotes the required length of the time series.
-##            The function acvs.fun(max.lag, ...) calculates the
-##            autocovariance sequence at lags 0:'max.lag'.
+##            The function acvs.fun(lag.max, ...) calculates the
+##            autocovariance sequence at lags 0:'lag.max'.
 ## Assumes  : 'N' > 0;
 ##            Process satisfies a certain positivity condition
 ##            (see Craigmile, 2003).
@@ -76,8 +76,8 @@ Davies.Harte.sim.setup <- function (N, acvs.fun, ...)
 ## Purpose : Simulate a stationary Gaussian process of length 'N' with
 ##           acvs defined in the function 'acvs.fun', using the
 ##           Davies-Harte algorithm.
-##           The function acvs.fun(max.lag, ...) calculates the
-##           autocovariance sequence at lags 0:'max.lag'.
+##           The function acvs.fun(lag.max, ...) calculates the
+##           autocovariance sequence at lags 0:'lag.max'.
 ##           The resulting process is cumulatively summed 'csum' times.
 ## Returns : A vector of the simulated process.
 ## Assumes : 'N' > 0;
